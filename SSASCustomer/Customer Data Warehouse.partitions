@@ -41,5 +41,25 @@
         </Partition>
       </Partitions>
     </MeasureGroup>
+    <MeasureGroup>
+      <ID>Fact Customer 1</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="b34f73df-1fd9-4396-b6dc-fb5dd7ddaf29">
+          <ID>Fact Customer</ID>
+          <Name>Fact Customer</Name>
+          <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T05:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="a7eb2c1d-7851-4378-9aad-a3ea05c94275">
+            <DataSourceViewID>Customer Data Warehouse</DataSourceViewID>
+            <TableID>dbo_FactCustomer</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
   </MeasureGroups>
 </Cube>

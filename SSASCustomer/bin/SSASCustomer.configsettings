@@ -57,6 +57,14 @@
               </Partition>
             </Partitions>
           </MeasureGroup>
+          <MeasureGroup>
+            <ID>Fact Customer 1</ID>
+            <Partitions>
+              <Partition>
+                <ID>Fact Customer</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
         </MeasureGroups>
       </Cube>
     </Cubes>
