@@ -1,0 +1,110 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>SSASCustomer</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>yO6cg50sSeExKxVU1hvQ15XhgUg=2019-06-29 1:19:12 PM2019-06-29 1:19:12 PM</TimeStamp>
+        <ID>
+          <String>Customer Data Warehouse</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>FfDcexiunpZeUwc7Kloouayj2NM=2019-07-03 3:41:54 PM2019-06-29 1:20:36 PM</TimeStamp>
+        <ID>
+          <String>Customer Data Warehouse</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>8TIgGVfzbGWd32tt4VR8n8mdk7w=2019-06-29 2:03:04 PM2019-06-29 1:31:15 PM</TimeStamp>
+        <ID>
+          <String>Dim States</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>5lO6whwH4wVbbmQ9USAJXYobLdA=2019-07-03 2:39:21 PM2019-06-29 1:31:15 PM</TimeStamp>
+        <ID>
+          <String>Dim Country</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>zHaJRw3S7BiDnO010OodZLAudR4=2019-06-29 2:03:04 PM2019-06-29 1:31:15 PM</TimeStamp>
+        <ID>
+          <String>Dim Product</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>033+mQeYq9bA7HK1XS8ki660/wc=2019-06-29 3:00:55 PM2019-06-29 2:54:13 PM</TimeStamp>
+        <ID>
+          <String>Time</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>6jqGSHJ6NSZwMh+NDsihF6A2Ywk=2019-07-02 11:18:23 PM2019-07-02 11:13:01 PM</TimeStamp>
+        <ID>
+          <String>Dim Sales Person</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ToQE+kJv6AsR+9uWaTEpsZcmJoE=2019-07-03 2:37:29 PM2019-07-03 2:37:29 PM</TimeStamp>
+        <ID>
+          <String>Dim Area</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>6phKkcmqhQyFl2/g8dQ4+to4oRU=2019-07-03 3:43:20 PM2019-07-03 3:43:19 PM</TimeStamp>
+        <ID>
+          <String>Dim Vendor</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>p6Cblw7Ei5LO+Utu7JkGcDcI4nI=2019-07-03 4:36:28 PM2019-07-03 4:36:27 PM</TimeStamp>
+        <ID>
+          <String>Dim Vendor Product</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>o79RFmCXpRxGBcdyFStKCGATI4M=2019-07-06 12:49:22 PM2019-07-03 4:32:35 PM9uxad+cs3fNhUtBPFyvyJpiGP3w=2019-07-06 12:49:22 PM2019-07-03 4:32:35 PM</TimeStamp>
+        <ID>
+          <String>Customer Data Warehouse</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>06QJkck2J/oQmTcQ2ff7cP57XZA=2019-06-29 2:56:22 PM2019-06-29 1:15:38 PM</TimeStamp>
+      <ID>
+        <String>SSASCustomer</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2019-07-06T16:49:24.926667Z</LastDeployed>
+</DeploymentSnapshot>
