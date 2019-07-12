@@ -2,7 +2,7 @@
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
     <Name>SSISCustomer</Name>
-    <LastWriteTime>2019-07-03T22:12:31.404124Z</LastWriteTime>
+    <LastWriteTime>2019-07-12T04:07:22.8914407Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
@@ -49,6 +49,11 @@
     <ProjectBuildItemInfo>
       <Name>DemoScript.dtsx</Name>
       <LastWriteTime>2019-07-05T17:15:03.1914734Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>DQSDemo.dtsx</Name>
+      <LastWriteTime>2019-07-12T04:07:22.8504415Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>
