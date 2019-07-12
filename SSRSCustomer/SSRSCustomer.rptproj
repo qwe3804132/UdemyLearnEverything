@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Report Include="Copy of WizardCubeReport.rdl" />
+    <Report Include="Matrix Report for Mdx.rdl" />
     <Report Include="WizardCubeReport.rdl" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Reporting Services\Microsoft.ReportingServices.MSBuilder.targets" />
